@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: black;
+}
+h1 {
+    text-shadow: -1px -1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+}
+#result {
+    text-shadow: -1px -1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
+    color: white;
+    font-family: fantasy;
+    font-size: 30px;
+}
+.v1 {
+    text-shadow: -1px -1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.v2 {
+    text-shadow: -1px -1px 0 black, -1px -1px 0 black, -1px 1px 0 black, 1px -1px 0 black, 1px 1px 0 black;
+    color: white;
+    font-family: fantasy;
+    font-size: 20px;
+}
+    
+#v1 {
+    border-radius: 30px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+#v2 {
+    border-radius: 30px;
+    font-family: fantasy;
+    font-size: 20px;
+    
+}
+.btns {
+    font-family: fantasy;   
+    background-color: aquamarine;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}
+#corpo {
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-right: 300px;
+    border-width: 10px;
+    background-color: rgb(100, 82, 82);
+    border-radius: 60px;
+    height: 500px;
+    width: 325px;
+    border-style:outset;
+}

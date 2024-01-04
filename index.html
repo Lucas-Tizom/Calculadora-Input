@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="corpo">
+    <h1> Calculadora </h1>
+   
+    <div class="v1">
+        Insira o primeiro valor: <br>
+        <input type="number" name="Primeiro valor" id="v1">
+    </div>
+    <div class="v2">
+        Insira o segundo valor: <br>
+        <input type="number" name="Segundo valor" id="v2"> 
+    </div>
+    <div id="op1" class="ops">
+        <button class="btns" onclick="adc()">+</button>
+        <button class="btns" onclick="sbt()">-</button>
+        <button class="btns" onclick="mtp()">X</button>
+    </div>
+    <div id="op1" class="ops">
+        <button class="btns" onclick="div()">/</button>
+        <button class="btns" onclick="exp()">^</button>
+        <button class="btns" onclick="pct()">%</button>
+    </div>
+    <div class="resultado">
+        <p id="result">Seu resultado é: </p>
+    </div>
+</div>
+</body>
+</html>
